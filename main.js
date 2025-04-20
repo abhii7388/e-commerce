@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Product data
+    // Product data with Unsplash images
     const products = [
         {
             id: 1,
             title: "Wireless Bluetooth Headphones",
             price: 79.99,
             oldPrice: 99.99,
-            image: "https://via.placeholder.com/300x300?text=Wireless+Headphones",
+            image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&auto=format&fit=crop",
             rating: 4,
             badge: "Sale"
         },
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Smart Watch Fitness Tracker",
             price: 129.99,
             oldPrice: 149.99,
-            image: "https://via.placeholder.com/300x300?text=Smart+Watch",
+            image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&h=300&auto=format&fit=crop",
             rating: 5,
             badge: "Popular"
         },
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 3,
             title: "Running Shoes",
             price: 59.99,
-            image: "https://via.placeholder.com/300x300?text=Running+Shoes",
+            image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=300&auto=format&fit=crop",
             rating: 4
         },
         {
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Denim Jacket",
             price: 49.99,
             oldPrice: 69.99,
-            image: "https://via.placeholder.com/300x300?text=Denim+Jacket",
+            image: "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=300&h=300&auto=format&fit=crop",
             rating: 3,
             badge: "Sale"
         },
@@ -39,14 +39,14 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 5,
             title: "Wireless Charger",
             price: 29.99,
-            image: "https://via.placeholder.com/300x300?text=Wireless+Charger",
+            image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=300&h=300&auto=format&fit=crop",
             rating: 4
         },
         {
             id: 6,
             title: "Cotton T-Shirt",
             price: 19.99,
-            image: "https://via.placeholder.com/300x300?text=Cotton+T-Shirt",
+            image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=300&h=300&auto=format&fit=crop",
             rating: 5,
             badge: "New"
         },
@@ -55,19 +55,19 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Backpack",
             price: 39.99,
             oldPrice: 49.99,
-            image: "https://via.placeholder.com/300x300?text=Backpack",
+            image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&h=300&auto=format&fit=crop",
             rating: 4
         },
         {
             id: 8,
             title: "Sunglasses",
             price: 24.99,
-            image: "https://via.placeholder.com/300x300?text=Sunglasses",
+            image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=300&h=300&auto=format&fit=crop",
             rating: 3
         }
     ];
 
-    // Cart items
+    // Rest of the code remains the same...
     let cartItems = [];
     
     // DOM Elements
