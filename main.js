@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Product data with Unsplash images
     const products = [
-        {
+        { 
             id: 1,
             title: "Wireless Bluetooth Headphones",
             price: 79.99,
